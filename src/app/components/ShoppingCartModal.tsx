@@ -92,7 +92,7 @@ import { useShoppingCart } from "use-shopping-cart";
           <p className=" mt-0.5 text-gray-500">Shipping and taxes are calculated at checkout</p>
           {/* It wraps the checkout button */}
           <div className=" mt-4">
-          <Button onClick={()=>handleCheckout} className=" w-full">
+          <Button onClick={(event)=>handleCheckout(event)} className=" w-full">
             Checkout
           </Button>
          </div>
